@@ -6,7 +6,7 @@ package com.example.grahambruce.shoppingbasket;
 
 class Item {
     private String name;
-    private int cost;
+    private double cost;
 
     public Item(String name, int cost) {
         this.name = name;
@@ -21,7 +21,7 @@ class Item {
         this.name = name;
     }
 
-    public int getCost() {
+    public double getCost() {
         return cost;
     }
 
